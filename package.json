@@ -1,0 +1,21 @@
+{
+    "name": "ruby-snippet",
+    "displayName": "ruby-snippet",
+    "description": "converted form textmate bundle",
+    "version": "0.0.1",
+    "publisher": "robert",
+    "engines": {
+        "vscode": "^0.10.10"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "ruby",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
