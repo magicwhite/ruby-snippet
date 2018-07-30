@@ -197,7 +197,7 @@
         "body": "$1 = Struct.new(:${2:attr_names}) do\n\tdef ${3:method_name}\n\t\t$0\n\tend\n\t\n\t\nend",
         "description": "ClassName = Struct .. do .. end",
         "scope": "source.ruby"
-    },    
+    },
     "col": {
         "prefix": "col",
         "body": "collect { |${1:e}| $0 }",
@@ -635,5 +635,11 @@
         "body": "zip(${1:enums}) { |${2:row}| $0 }",
         "description": "zip(enums) { |row| .. }",
         "scope": "source.ruby"
+    },
+    "pry": {
+        "prefix": "pry",
+        "body": "binding.pry\n",
+        "description": "Insert binding pry debugger",
+        "source": "source.ruby"
     }
 }
